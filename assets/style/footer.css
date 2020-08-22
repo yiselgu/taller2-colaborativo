@@ -4,9 +4,25 @@
     }
 
 .img-logo{
-    width:150px; 
-    float: left;
-    margin-top: 10px;
+    width:300px; 
+    margin-top: 50px;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-right: 10px;}
+
+.googlemaps{
+    width:500px;
+    height:300px;
+    text-align:right;
+}
+
+.vinculo{
+   color: #757a7a !important;
+   text-align: center;  
+}
+
+.licencia{
+    color: #757a7a !important;
+    text-align: center;  
+ }
+
