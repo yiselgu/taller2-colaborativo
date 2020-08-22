@@ -4,8 +4,6 @@
   Box-sizing-border:0;
 }
 
-
-
 .cabecero1 {
   display: grid;
   grid-template-columns: 1fr ;
@@ -18,22 +16,49 @@
 
 .subcabecero1 { grid-area: subcabecero1;
   }
-
+  
+/* REDES SOCIALES */
   .redes{
-    margin-left: 300px;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
+
   a{
     color: ivory;
   }
+
+/* LOGO HEAD */  
 .img1{
   grid-row: initial;
-  margin-left: 150px;
+  margin-left: 200px;
+  margin-top: 15px;
+ height: 100px;
   }
+
+/* MENU IMAGEN */
+  .menu-img{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+  .menu
   /*  CSS para navcenter */
 
-.navcenter{
-    margin-left: 150px;
+.navcenter{    
+  flex-direction: row;
+  display: flex;
+  }
 
+  .iimg{
+    width: 60%;
+  }
+
+  .menu1{
+    width: 50%;
+    margin-top: 20px;
   }
 
 #menucenter,
@@ -45,15 +70,14 @@
   margin-left: 0;
   padding: 0;
 }
+/* MENU*/
 #menucenter {
-  height: 37px;
-  display: block;
+  height: 40px;
+  /*display: inline-flex;*/
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 9px;
   width: auto;
   border-color: #080808;
-  margin: 0;
-  padding: 0;
 }
 #menucenter > ul {
   list-style: inside none;
